@@ -1,0 +1,189 @@
+/* Geral */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana;
+  color: rgb(0, 0, 0);
+}
+
+body {
+  background-image: url("../img/bg.jpg");
+}
+
+button {
+  background-color: #fdfdfd;
+  color: #000000;
+  border: 2px solid #000000;
+  padding: 0.3rem 0.6rem;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+button:hover > i {
+  color: #fff;
+}
+
+button i {
+  pointer-events: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+input,
+select {
+  padding: 0.25rem 0.5rem;
+}
+
+.hide {
+  display: none;
+}
+
+/* Todo Header */
+.todo-container {
+  max-width: 600px;
+  margin: 3rem auto 0;
+  background-color: #fdfdfd;
+  padding: 1.5rem;
+  border-radius: 15px;
+}
+
+.todo-container header {
+  text-align: center;
+  padding: 0 1rem 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Todo Form */
+#todo-form,
+#edit-form {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+#todo-form p,
+#edit-form p {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+#todo-form b,
+#todo-form p{
+  display: inline;
+}
+
+
+#todo-form b{
+  margin-left: 1.8rem;
+}
+
+
+.form-control {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.form-control input {
+  margin-right: 0.3rem;
+}
+
+#cancel-edit-btn {
+  margin-top: 1rem;
+  color: rgb(0, 0, 0);
+  background-color: #fdfdfd;
+  border: 2px solid #000000;
+  font-size: 1rem;
+  transition: 0.4s;
+}
+
+#cancel-edit-btn:hover {
+  background-color: #000000;
+  color: #fdfdfd;
+}
+
+#cancel-edit-btn i {
+  pointer-events: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Todo Toolbar */
+#toolbar {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+}
+
+#toolbar h4 {
+  margin-bottom: 0.5rem;
+}
+
+#search {
+  padding-right: 1rem;
+  margin-right: 1rem;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+#search form {
+  display: flex;
+}
+
+#search input {
+  width: 100%;
+  margin-right: 0.3rem;
+}
+
+/* Todo List */
+.todo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 1rem;
+  border-bottom: 1px solid #ddd;
+  transition: 0.3s;
+  position: relative;
+}
+
+.todo h3 {
+  flex: 1;
+  font-size: 1rem;
+}
+
+.todo h4 {
+  font-size: 1rem;
+}
+
+.todo button {
+  margin-left: 0.4rem;
+}
+
+.done {
+  background: #000000;
+}
+
+.done h3, 
+.done h4{
+  color: #fff;
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.date {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 1rem;
+  border-bottom: 1px solid #ddd;
+  transition: 0.3s;
+  position: relative;
+}
