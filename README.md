@@ -1,12 +1,27 @@
 # To-Do-List-CT-Junior
 
-Sumario
-* [Sobre o projeto](https://github.com/RenanCampista/To-Do-List-CT-Junior/edit/main/README.md#sobre-o-projeto)
-* [Começando](https://github.com/RenanCampista/To-Do-List-CT-Junior/edit/main/README.md#sobre-o-projeto)
-* [Uso](https://github.com/RenanCampista/To-Do-List-CT-Junior/edit/main/README.md#sobre-o-projeto)
-* [Roteiro](https://github.com/RenanCampista/To-Do-List-CT-Junior/edit/main/README.md#sobre-o-projeto)
-* [Contato](https://github.com/RenanCampista/To-Do-List-CT-Junior/edit/main/README.md#sobre-o-projeto)
-* [Agradecimentos](https://github.com/RenanCampista/To-Do-List-CT-Junior/edit/main/README.md#sobre-o-projeto)
+<details>
+  <Sumario>Índice</summary>
+  <ol>
+    <li>
+      <a href="#sobre-o-projeto">Sobre o projeto</a>
+      <ul>
+        <li><a href="#feito-com">Feito Com</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#começando">Começando</a>
+      <ul>
+        <li><a href="#pré-requisitos">Pré-requisitos</a></li>
+        <li><a href="#instalação">Instalação</a></li>
+      </ul>
+    </li>
+    <li><a href="#uso">Uso</a></li>
+    <li><a href="#roteiro">Roteiro</a></li>
+    <li><a href="#contato">Contato</a></li>
+    <li><a href="#agradecimentos">Agradecimentos</a></li>
+  </ol>
+</details>
 
 <!-- ABOUT THE PROJECT -->
 ## Sobre o Projeto
