@@ -2,7 +2,7 @@
 const todoForm = document.querySelector("#todo-form");
 const todoInput = document.querySelector("#todo-input");
 const dateTodo = document.querySelector("#date-input");
-const todoList = document.querySelector("#todo-list"); //onde vai incluir as novas tarefas
+const todoList = document.querySelector("#todo-list"); //onde serão incluídas as novas tarefas
 const editForm = document.querySelector("#edit-form");
 const editInput = document.querySelector("#edit-input");
 const editDate = document.querySelector("#edit-date");
@@ -91,7 +91,6 @@ const updateDate = (date) => {
   });
 }
 
-
 const getSearchedTodos = (search) => {
   const todos = document.querySelectorAll(".todo");
 
@@ -107,6 +106,7 @@ const getSearchedTodos = (search) => {
     }
   });
 };
+
 
 // Eventos
 todoForm.addEventListener("submit", (e) => {
