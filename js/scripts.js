@@ -95,13 +95,13 @@ const getSearchedTodos = (search) => {
   const todos = document.querySelectorAll(".todo");
 
   todos.forEach((todo) => {
-    const todoTitle = todo.querySelector("h3").innerText.toLowerCase();
+    const todoTitle = todo.querySelector("h3").innerText.toLocaleLowerCase();
 
     todo.style.display = "flex";
 
     console.log(todoTitle);
 
-    if (!todoTitle.includes(search)) {
+    if (!todoTitle.includes(search.toLocaleLowerCase())) {
       todo.style.display = "none";
     }
   });
