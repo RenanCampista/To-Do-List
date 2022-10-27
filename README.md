@@ -40,7 +40,7 @@
 * Baixe a extensão "live server" para executar o arquivo HTML.
 
 ### Instalação
-* Baixe os arquivos.
+* Baixe e extraia os arquivos, depois abra a pasta.
 
 
 <!-- USAGE EXAMPLES -->
